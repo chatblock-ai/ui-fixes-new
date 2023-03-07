@@ -23,7 +23,16 @@ const SignIn = (props) => {
         src="/playground_assets/new%20project%20%5B3%5D%20%5B1%5D-1500w.png"
         className="sign-in-image1"
       />
-      <div id="place-here" className="sign-in-container1"></div>
+      <div id="place-here" className="sign-in-container1">
+    <div className='absolute top-[50px] signin bg-transparent'>
+            <div className='signin__container bg-black'>
+              <button className="signin__btn flex items-center justify-center" onClick={signInWithGoogle}>
+                <FcGoogle className='m-2' />
+                Sign in with Google
+              </button>
+            </div>
+          </div>
+        </div>
       <img
         alt="image"
         src="/playground_assets/layers%20%5B7%5D-500w.png"

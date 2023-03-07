@@ -1,0 +1,12 @@
+.component7-container {
+  display: flex;
+  position: relative;
+}
+.component7-link {
+  display: contents;
+}
+.component7-image {
+  width: var(--dl-size-size-small);
+  object-fit: cover;
+  text-decoration: none;
+}
